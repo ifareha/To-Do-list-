@@ -18,7 +18,7 @@ const Tasks = () => {
     }
     
   return (
-    <form onSubmit={handleTask} className="w-[27%] flex justify-between px-5 my-[2%]">
+    <form onSubmit={handleTask} className="w-[27vw] max-sm:w-[79vw] flex justify-between max-sm:gap-1 px-5 my-[2%]">
             <input onChange={(e)=> {
                 setTitle(e.target.value)
                 

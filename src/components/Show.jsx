@@ -9,7 +9,7 @@ const Show = () => {
     )
     if(tasks.length > 0) {
         renderTasks = tasks.map((tasks, index) => (
-            <ul key={index} className="list-none w-[25%]  ">
+            <ul key={index} className="list-none w-[25vw] max-sm:w-[65vw]  ">
             <li className="mb-5 flex justify-between w-full items-center border rounded-xl p-5">
                 <div className="flex items-center">
                     <div onClick={(e)=> completeTask(e,index)}
